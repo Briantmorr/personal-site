@@ -1,47 +1,35 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Nature Connect',
+    subtitle: '2017 LFZ Hackaton',
+    link: 'http://natureconnect.briantmorris.com/',
+    image: '/images/projects/natureconnect.png',
+    date: '2018-3-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Won 1st prize in LFZ hackathon. '
+      + 'So rewarding to finally get the AI working in the last hours of the hackathon.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Part Pig',
+    subtitle: 'Proof of Concept for Startup',
+    link: 'http://partpig.briantmorris.com/',
+    image: '/images/projects/partpig.png',
+    date: '2018-05-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Proof of Concept for a Startup. '
+      + 'A web app built to facilitate the buying and selling of used car parts.'
+      + ' PartPig is an ecommerce platform designed to bring the buyer and the seller together by focusing on User Interface and Experience (UI/UX).',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'My first Rover',
+    subtitle: 'Proof of Concept for Startup',
+    image: '/images/projects/rover.jpg',
+    date: '2021-09-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      "A web-app controlled 'rover'."
+      + " I'm proud of this, as it combined my growing skills in CAD, 3d Printing, Arduino, and Electical Circuits."
+      + " I was most nervous when 'modifying' my 16v lipo battery to output 12v. I'd never cut open a battery before...",
   },
 ];
 
