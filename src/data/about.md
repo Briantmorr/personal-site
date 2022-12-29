@@ -15,13 +15,13 @@ I came into tech with a background in philosphy. I've always loved problem solvi
 - CAD
 - Backpacking
 - Wilderness Survival
-- Long Cycling Trips
+- Long cycling trips
 - Reading
-- Tea (Matcha Lattes especially)
+- Tea - Matcha Lattes especially
 
 # Fun facts
 - I fell in love with Pottery during lockdown, its such a cool blend of skill and art.
-- I once rode my bicyle from Banff, Canada to San Francisco, California
-- I co-founded a wilderness survival group, and go on yearly (well, almost yearly) trips where the only rule is you can't bring food
-- I'm a fan of polar plunges (Wim Hof anyone?), and have swam with Iceburgs in Iceland and Patagonia
+- I once rode my bicyle from Banff, Canada to San Francisco, California.
+- I co-founded a wilderness survival group, and go on yearly (well, almost yearly) trips where the only rule is you can't bring food.
+- I'm a fan of polar plunges (Wim Hof anyone?), and have swum with iceburgs in Iceland and Patagonia.
 - I enjoy experimenting with ML in my spare time. OpenCV feels like magic!

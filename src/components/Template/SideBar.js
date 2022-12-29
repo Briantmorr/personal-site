@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/My project.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
         <h2>Brian Morris</h2>
@@ -19,9 +19,9 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Brian. I like building things and being outside.
-        I&apos;m an amateur potter, hobby roboticist, and love automation.
-        I currently work at SAP
+      <p>Hi, I&apos;m Brian. I like building things and adventuring outdoors.
+        I&apos;m an amateur potter, hobby roboticist, and automation enthusiast.
+        Currently, I work at SAP
         as a software engineer with my head in the cloud.
         When I&apos;m not coding, I&apos;m usually playing soccer or
         planning my next backpacking trip.
