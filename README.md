@@ -56,3 +56,11 @@ To statically export the site without deploying to github pages, delete or disab
 * Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
 * Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
 * [@notrueblood](https://github.com/notrueblood)[<sup>[1]</sup>](https://github.com/mldangelo/personal-site/pull/218) and [@sjhsieh](https://github.com/sjhsieh)[<sup>[2]</sup>](https://github.com/mldangelo/personal-site/issues/168) for keeping my ego in check.
+
+
+##Deployment to briantmorris
+
+we are directly deploying to my ubuntu server instead of serving with github.pages.
+This is because, we need my projects to be deployed to various subdomains (e.g. partpig.briantmorris.com and natureconnect.briantmorris.com)
+
+Additionally, I removed the .gitignore entry for the build/ folder, as the ubuntu image is  a bit older, and building there was suboptimal. instead, I just build locally, commit, and pull there.

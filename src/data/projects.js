@@ -13,7 +13,7 @@ const data = [
   {
     title: 'Nature Connect',
     subtitle: '2017 LFZ Hackaton',
-    link: 'http://natureconnect.briantmorris.com/',
+    link: 'https://natureconnect.briantmorris.com/',
     image: '/images/projects/natureconnect.png',
     date: '2018-3-01',
     desc:
@@ -23,7 +23,7 @@ const data = [
   {
     title: 'Part Pig',
     subtitle: 'Proof of Concept for Startup',
-    link: 'http://partpig.briantmorris.com/',
+    link: 'https://partpig.briantmorris.com/',
     image: '/images/projects/partpig.png',
     date: '2018-05-20',
     desc:
