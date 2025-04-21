@@ -1,14 +1,35 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Fengshu-AI',
+    subtitle: 'AI-Powered Interior Design Assistant',
+    link: '/videos/fengshuai.mov',
+    videoThumbnail: true,
+    date: '2023-09-01',
+    desc:
+      'An AI assistant applying Feng Shui principles to modern interior design.'
+      + ' Combined computer vision and LLMs to understand spaces and generate contextual design advice.',
+  },
+  {
+    title: 'Quantitative Trading with Machine Learning',
+    subtitle: 'Masters Capstone Project',
+    image: '/images/capstone_architecture.jpg',
+    date: '2023-12-01',
+    desc:
+      'Built an end-to-end quantitative trading system for my AI Masters capstone.'
+      + ' Engineerd a backtesting framework evaluating ML-powered trading bots against market data.'
+      + ' Implemented LSTM networks, gradient boosting, and reinforcement learning models.'
+      + ' Developed a leaderboard tracking performance across different strategies and market conditions.',
+  },
+  {
     title: 'Automating Security Triaging',
     subtitle: 'Bash script Automation',
     image: '/images/projects/vulnerability_triage.jpeg',
     date: '2022-02-01',
     desc:
-      ' A bash scipt to simplify security scanning for Java Gradle projects.'
-      + ' As security lead, I spent significant time triaging vulnerabilities. And vulnerability auditing commands are tedious.'
-      + ' I decided to write an automated script that scans and presents gradle modules to the user and abstracts away much of the manual effort.'
+      'A bash script simplifying security scanning for Java Gradle projects.'
+      + ' As security lead, I needed a better way to triage vulnerabilities.'
+      + ' Automated scanning and presentation of gradle modules, reducing manual effort.'
       + ' Improved triaging speed by over 70%.',
   },
   {
@@ -17,10 +38,9 @@ const data = [
     image: '/images/projects/postman_script.jpeg',
     date: '2022-02-01',
     desc:
-      ' I noticed a need for automation in our API debugging process.'
-      + ' The script I wrote initially allowed developers to save time when debugging APIs.'
-      + ' However, it is now used to provision login for integration tests in all our product\'s environments.'
-      + ' What started out as a simple automation task, turned out to be quite challenging, since our login process requires almost a dozen redirects.',
+      'Automated API debugging workflow to save developer time.'
+      + ' Script now provisions login for integration tests across all product environments.'
+      + ' Handles complex authentication flow with multiple redirects.',
   },
   {
     title: 'Seeding Performance Load Testing',
@@ -28,10 +48,10 @@ const data = [
     image: '/images/projects/performance_seeding_1.jpeg',
     date: '2022-02-01',
     desc:
-      ' While trying to solve our service\'s need for performance testing. I noticed a major opportunity to get drastly improved testing results.'
-      + ' There are no testing tools providing the ability to easily seed testing records at scale.'
-      + ' I ideated and delivered a tool capable of dynamically seeding a Database with 100k+ records in seconds with minimal developer configuration.'
-      + ' I later refined and pitched this tool for the SAP innovation challenge, making it to the final 25.',
+      'A tool for performance testing data generation.'
+      + ' Solved the challenge of easily seeding test records at scale.'
+      + ' Dynamically seeds databases with 100k+ records in seconds with minimal configuration.'
+      + ' Advanced to final 25 in SAP innovation challenge.',
   },
   {
     title: '3D printed Rover',
@@ -39,8 +59,8 @@ const data = [
     image: '/images/projects/rover.jpg',
     date: '2021-09-01',
     desc:
-      'This project combined my skills in Software, CAD, 3d Printing, Arduino, and Electical Circuits.'
-      + " Solving power delivery was challenging. I needed to cut a 16v lipo down to 12v to meet my motor controller's specifications",
+      'Combined software, CAD, 3D printing, Arduino, and electronics skills.'
+      + ' Solved power delivery challenges by converting 16v to 12v for motor controller.',
   },
   {
     title: 'Nature Connect',
@@ -59,9 +79,8 @@ const data = [
     image: '/images/projects/partpig.png',
     date: '2018-05-20',
     desc:
-      'Proof of Concept for a Startup. '
-      + 'A web app built to facilitate the buying and selling of used car parts.'
-      + ' PartPig is an ecommerce platform designed to bring the buyer and the seller together by focusing on User Interface and Experience (UI/UX).',
+      'Proof of concept for an ecommerce platform connecting buyers and sellers of used car parts.'
+      + ' Focused on creating an intuitive UI/UX to improve the shopping experience.',
   },
 ];
 
