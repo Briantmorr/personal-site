@@ -2,139 +2,124 @@
 
 const skills = [
   {
-    title: 'Javascript',
+    title: 'Neural Networks',
     competency: 4,
-    category: ['Web Development', 'Languages'],
+    category: ['AI / ML'],
+  },
+  {
+    title: 'LLMs',
+    competency: 5,
+    category: ['AI / ML'],
+  },
+  {
+    title: 'Decision Trees',
+    competency: 3,
+    category: ['AI / ML'],
+  },
+  {
+    title: 'Deep Learning',
+    competency: 4,
+    category: ['AI / ML'],
+  },
+  {
+    title: 'Conversational Agents',
+    competency: 4,
+    category: ['AI / ML'],
+  },
+  {
+    title: 'Langchain',
+    competency: 2,
+    category: ['AI / ML'],
+  },
+  {
+    title: 'RAG',
+    competency: 3,
+    category: ['AI / ML'],
+  },
+  {
+    title: 'Python (Tensorflow, Keras)',
+    competency: 4,
+    category: ['Programming'],
   },
   {
     title: 'Java',
-    competency: 5,
-    category: ['Web Development', 'Languages'],
+    competency: 3,
+    category: ['Programming'],
+  },
+  {
+    title: 'Javascript',
+    competency: 4,
+    category: ['Programming'],
+  },
+  {
+    title: 'SQL (PostgreSQL)',
+    competency: 4,
+    category: ['Programming'],
   },
   {
     title: 'Bash',
+    competency: 3,
+    category: ['Programming'],
+  },
+  {
+    title: 'REST APIs',
     competency: 5,
-    category: ['Tools', 'Languages'],
+    category: ['Programming'],
   },
   {
-    title: 'Spring Boot',
-    competency: 3,
-    category: ['Web Development'],
-  },
-  {
-    title: 'Gradle',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'PostgreSQL',
-    competency: 4,
-    category: ['Databases'],
-  },
-  {
-    title: 'MySQL',
-    competency: 3,
-    category: ['Databases'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 2,
-    category: ['Databases'],
-  },
-  {
-    title: 'Redis',
-    competency: 2,
-    category: ['Databases'],
-  },
-  {
-    title: 'Git',
+    title: 'Kafka',
     competency: 5,
-    category: ['Tools'],
+    category: ['Data Engineering'],
   },
   {
-    title: 'Kubernetes',
+    title: 'Pandas',
     competency: 4,
-    category: ['Tools', 'Cloud Development'],
+    category: ['Data Engineering'],
+  },
+  {
+    title: 'Databricks',
+    competency: 3,
+    category: ['Data Engineering'],
+  },
+  {
+    title: 'Spark',
+    competency: 3,
+    category: ['Data Engineering'],
+  },
+  {
+    title: 'Query Optimization',
+    competency: 4,
+    category: ['Data Engineering'],
+  },
+  {
+    title: 'AWS SageMaker',
+    competency: 3,
+    category: ['Cloud & DevOps'],
+  },
+  {
+    title: 'Google Cloud',
+    competency: 3,
+    category: ['Cloud & DevOps'],
   },
   {
     title: 'Docker',
     competency: 3,
-    category: ['Tools', 'Cloud Development'],
+    category: ['Cloud & DevOps'],
   },
   {
-    title: 'Kafka',
+    title: 'CI/CD (Jenkins, Github Actions)',
     competency: 3,
-    category: ['Tools', 'Cloud Development'],
+    category: ['Cloud & DevOps'],
   },
   {
-    title: 'Python',
+    title: 'Kubernetes',
+    competency: 4,
+    category: ['Cloud & DevOps'],
+  },
+  {
+    title: 'Observability (Grafana, Prometheus, Dynatrace, Loki)',
     competency: 3,
-    category: ['Languages'],
-  },
-  {
-    title: 'PHP',
-    competency: 3,
-    category: ['Languages'],
-  },
-  {
-    title: 'Django',
-    competency: 2,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'HTML + CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'Postman',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Amazon Web Services',
-    competency: 2,
-    category: ['Cloud Development'],
-  },
-  {
-    title: 'Google Cloud Platform',
-    competency: 3,
-    category: ['Cloud Development'],
-  },
-  {
-    title: 'Microsoft Azure',
-    competency: 2,
-    category: ['Cloud Development'],
-  },
-  {
-    title: 'Jenkins',
-    competency: 2,
-    category: ['Cloud Development'],
-  },
-  {
-    title: 'Prometheus',
-    competency: 3,
-    category: ['Cloud Development', 'Monitoring'],
-  },
-  {
-    title: 'Loki',
-    competency: 3,
-    category: ['Cloud Development', 'Monitoring'],
-  },
-  {
-    title: 'Grafana',
-    competency: 2,
-    category: ['Cloud Development', 'Monitoring'],
+    category: ['Cloud & DevOps'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
