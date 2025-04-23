@@ -1,17 +1,21 @@
-
 # Intro
 
-I am a software engineer with a passion for understanding how things work. This has lead me to get heavily involved with cloud native and DevOps in my current position at SAP Eureka. Eureka is SAP's initiative to apply modern cloud solutions to their existing ecosystem. There we are building next generation cloud native solutions. I love working on cutting edge technology, and appreciate the support I receive when I propose new ideas. 
-I came into tech with a background in philosphy. I've always loved problem solving, but the more I grow into the role of an architect, I increasingly value my skills in communication and approaching problems in non-traditional ways. 
+I'm a software engineer with a passion for understanding how things work. I started my journey in tech with a love for building things and quickly found joy in solving real-world problems through code. Over time, my role has evolved from writing software to shaping the systems and strategies behind it.  
+<br>
+I came into the field with a background in philosophy, which continues to shape how I approach problems—asking better questions, thinking critically, and communicating clearly. As I've stepped into architectural roles, those skills have become just as valuable as my technical ones.  
+<br>
+My fascination with artificial intelligence started early. At one of my first hackathons, I built a simple Connect Four AI that helped our team win first place—and I've been hooked ever since. When ChatGPT launched, I immediately recognized its potential. That moment deepened my commitment to AI and led me to launch internal hackathons, organize community meetups during the early GPT-3 days, and pursue a master's in Applied AI.  
+<br>
+Today, I'm focused on building AI that makes a difference in how we work, think, and interact with the world.  
 
 # I like
-- Soccer
 - Chess
-- 3d Printing
-- Pottery
 - Running
-- Robotics
+- Soccer
+- Pottery
 - Rock Climbing
+- 3d Printing
+- Robotics
 - CAD
 - Backpacking
 - Wilderness Survival
@@ -20,8 +24,7 @@ I came into tech with a background in philosphy. I've always loved problem solvi
 - Tea - Matcha Lattes especially
 
 # Fun facts
-- I fell in love with Pottery during lockdown, its such a cool blend of skill and art.
-- I once rode my bicyle from Banff, Canada to San Francisco, California.
+- I fell in love with Pottery during COVID lockdown, its such a cool blend of skill and art.
+- I once rode my bicyle from Banff, Canada to San Francisco, California. (almost 2000 miles!)
 - I co-founded a wilderness survival group, and go on yearly (well, almost yearly) trips where the only rule is you can't bring food.
-- I'm a fan of polar plunges (Wim Hof anyone?), and have swum with iceburgs in Iceland and Patagonia.
-- I enjoy experimenting with ML in my spare time. OpenCV feels like magic!
+- I'm a fan of polar plunges, and have swam with iceburgs in Iceland and Patagonia.

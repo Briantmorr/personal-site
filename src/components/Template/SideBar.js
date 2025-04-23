@@ -19,12 +19,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Brian. I like building things and adventuring outdoors.
-        I&apos;m an amateur potter, hobby roboticist, and automation enthusiast.
-        Currently, I work at SAP
-        as a software engineer with my head in the cloud.
-        When I&apos;m not coding, I&apos;m usually playing soccer or
-        planning my next backpacking trip.
+      <p>Hi, I&apos;m Brian. I&apos;m an AI engineer currently working at SAP,
+        where I focus on deploying LLMs into enterprise products.
+        When I&apos;m not coding, you&apos;ll probably find me training for my next race
+        or chasing mountain trails with a backpack.
       </p>
       <ul className="actions">
         <li>

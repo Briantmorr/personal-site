@@ -16,8 +16,8 @@ const data = [
     image: '/images/capstone_architecture.jpg',
     date: '2023-12-01',
     desc:
-      'Built an end-to-end quantitative trading system for my AI Masters capstone.'
-      + ' Engineerd a backtesting framework evaluating ML-powered trading bots against market data.'
+      'An end-to-end quantitative trading system for my AI Masters capstone.'
+      + ' I engineered a live-trading framework evaluating ML-powered trading bots against market data.'
       + ' Implemented LSTM networks, gradient boosting, and reinforcement learning models.'
       + ' Developed a leaderboard tracking performance across different strategies and market conditions.',
   },

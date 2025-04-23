@@ -2,6 +2,18 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
+// Projects that need a darker background for better text readability
+const PROJECTS_NEEDING_BACKGROUND = [
+  'Fengshu-AI',
+  'Quantitative Trading with Machine Learning',
+  'Postman login Automation',
+  'Automating Security Triaging',
+  'Seeding Performance Load Testing',
+  '3D printed Rover',
+  'Nature Connect',
+  'Part Pig',
+];
+
 const Cell = ({ data }) => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [thumbnailUrl, setThumbnailUrl] = useState('');
@@ -9,6 +21,7 @@ const Cell = ({ data }) => {
   const videoRef = useRef(null);
 
   const isVideo = data.link && data.link.includes('.mov');
+  const needsBackground = PROJECTS_NEEDING_BACKGROUND.includes(data.title);
 
   useEffect(() => {
     if (isVideo && data.videoThumbnail && !thumbnailUrl) {
@@ -58,17 +71,13 @@ const Cell = ({ data }) => {
     }
   };
 
-  // Handles mouse hover for videos with thumbnails
+  // Handles mouse hover for all projects
   const handleMouseEnter = () => {
-    if (data.videoThumbnail) {
-      setIsHovering(true);
-    }
+    setIsHovering(true);
   };
 
   const handleMouseLeave = () => {
-    if (data.videoThumbnail) {
-      setIsHovering(false);
-    }
+    setIsHovering(false);
   };
 
   return (
@@ -149,9 +158,16 @@ const Cell = ({ data }) => {
           </a>
         )}
 
-        {/* Show description for all projects, but hide it when hovering over video thumbnails */}
-        {(!data.videoThumbnail || !isHovering) && (
-          <div className="description">
+        {/* Show description only when not hovering */}
+        {!isHovering && (
+          <div
+            className="description"
+            style={needsBackground ? {
+              backgroundColor: 'rgba(245, 245, 245, 0.87)',
+              color: 'black',
+              padding: '5px',
+            } : {}}
+          >
             <p>{data.desc}</p>
           </div>
         )}
