@@ -6,6 +6,7 @@ import dayjs from 'dayjs';
 const PROJECTS_NEEDING_BACKGROUND = [
   'Fengshu-AI',
   'Quantitative Trading with Machine Learning',
+  'Artificially Intelligent Colleague',
   'Postman login Automation',
   'Automating Security Triaging',
   'Seeding Performance Load Testing',

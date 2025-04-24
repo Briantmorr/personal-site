@@ -4,9 +4,10 @@ I'm a software engineer with a passion for understanding how things work. I star
 <br>
 I came into the field with a background in philosophy, which continues to shape how I approach problems—asking better questions, thinking critically, and communicating clearly. As I've stepped into architectural roles, those skills have become just as valuable as my technical ones.  
 <br>
-My fascination with artificial intelligence started early. At one of my first hackathons, I built a simple Connect Four AI that helped our team win first place—and I've been hooked ever since. When ChatGPT launched, I immediately recognized its potential. That moment deepened my commitment to AI and led me to launch internal hackathons, organize community meetups during the early GPT-3 days, and pursue a master's in Applied AI.  
+My fascination with AI started early. At one of my first hackathons, I built a simple Connect Four AI that helped our team win first place—and I've been hooked ever since. When ChatGPT launched, I immediately recognized its potential. That moment deepened my commitment to AI and led me to launch internal hackathons, organize community meetups during the early GPT-3 days, and obtain a master's in Applied AI.  
 <br>
 Today, I'm focused on building AI that makes a difference in how we work, think, and interact with the world.  
+
 
 # I like
 - Chess
